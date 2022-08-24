@@ -1,0 +1,34 @@
+.track {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.artist {
+  font-size: 12px;
+  color: gray;
+}
+
+.information {
+  width: 200px;
+  margin: 0 20px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+.delete {
+  margin-left: auto;
+}
+
+.time {
+  margin-left: auto;
+}
+
+.time + .delete {
+  margin-left: 10px;
+}
